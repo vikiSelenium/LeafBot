@@ -23,7 +23,7 @@ public class ProjectSpecificMethods extends SeleniumBase {
 
 	@BeforeMethod
 	public void beforeMethod() {
-		driver = startApp("chrome", "http://acme-test.uipath.com/account/login");
+		driver = startApp("chrome", "http://leaftaps.com/opentaps/control/main");
 		node = test.createNode(testCaseName);
 	}
 
